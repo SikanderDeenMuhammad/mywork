@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightgray;
+        }
+    h1{
+        color: white;
+        background-color:rgb(119, 211, 119);
+    }
+    .bcolor{
+        color: white;
+        background:rgb(119, 211, 119); 
+    }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>User Registartion Form</h1>
+<table>
+    
+    <tr>
+    <td>User Name:</td>
+    <td><input type="text" name="username" size="15" maxlength="30" /></td>
+    </tr>
+    <tr>
+    <td>Password:</td>
+    <td><input type="password" name="password" size="15" maxlength="30" /></td>
+    </tr>
+
+    <tr>
+        <td>Date of Birth:</td>
+            <td><input type="date" name="Date" size="15" maxlength="30" /></td>
+            </tr>
+
+    <tr>
+        <td>Web URL:</td>
+        <td><input type="text" name="text" size="15" maxlength="30" /></td>
+        </tr>
+    <tr>
+        <td>Address:</td>
+            <td><input type="text" name="text" size="15" maxlength="30" /></td>
+            </tr>
+
+    <tr>
+        <td>City:</td>
+        <td><select type="text">
+            <option value="Karachi">Karachi</option>
+            <option value="Lahore">Lahore</option>
+            <option value="Islamabad">Islamabad</option>
+            </select></td>
+        </tr>
+
+            <tr><td>State:</td>
+            <td><input type="text" name="text" size="15" maxlength="30" /></td></tr>
+
+            <tr>
+                <td>Zip:</td>
+                    <td><input type="number" name="number" size="15" maxlength="30" /></td>
+                    </tr>
+            
+            <tr>
+                <td>Magazine:</td>
+                <td><select name="Magazine" size="4" multiple="multiple">
+                <option value="Newsweek" >Newsweek</option>
+                <option value="Time">Time</option>
+                <option value="Fortune" >Fortune</option>
+                <option value="TV Guide">TV Guide</option>
+                </select></td>
+            </tr>
+            </table>
+                <p>Additional Comments:</p><textarea name="comments" cols="50" rows="8"></textarea>
+
+                <br>
+                <br>
+                <br>
+                <table>
+                <tr>
+                    <td rowspan="2">Upload your profile picture:</td>
+                    <td><input type="file" value="File" name="Chosse File"/></td>
+                </tr>
+                    
+                    <tr>
+                    <td><input type="submit" value="Upload" class="bcolor"/></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Send Your order" class="bcolor"/></td>
+                </tr>
+                </table>
+            
+                    
+                
+                    
+        </form>
+</body>
+</html>
